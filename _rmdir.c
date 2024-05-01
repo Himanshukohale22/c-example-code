@@ -16,7 +16,7 @@
 
 // the _rmdir() function is found in the direct.h library, and the function will
 // set errno in the errno.h library if an error occurs
-#include <direct.h>
+#include <dirent.h>
 #include <errno.h>
 
 int main(void)
